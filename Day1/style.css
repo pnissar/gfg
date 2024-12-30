@@ -22,6 +22,7 @@ header,.sec1 .art1,.sec3 article h3{
 .sec2 article img{
     width:50%;
     padding: 5px;
+    border-radius: 100%;
 }
 .sec3 article form input{
     width: 100%;

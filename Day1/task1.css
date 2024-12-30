@@ -1,0 +1,76 @@
+body{
+    background-color: gray;
+}
+.Hob article img{
+    width:300px;
+    height: 300px;
+    border-radius: 100%;
+}
+hr{
+    border:none;
+    border-top: 5px groove rgb(165, 240, 248);
+}
+.Hob article h4 {
+    padding: 1px;
+    margin: 2px;
+}
+.Hob .img{
+    text-align: center;
+}
+header,main,section,.proj article{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius:12px ;
+    padding: 10px;
+    background-color: gainsboro;
+    margin: 20px;
+    box-shadow:2px 2px 15px rgba(220, 220, 220, 0.305), -2px -2px 15px rgba(220, 220, 220, 0.305) ;
+}
+section,
+.proj article{
+    box-shadow: 2px 2px 15px rgba(14, 14, 14, 0.105), -2px -2px 15px rgba(14, 14, 14, 0.105);
+}
+h2,h1{
+    text-align: center;
+    text-decoration:underline;
+    margin: 5px;
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.81);
+}
+footer{
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px rgba(220, 220, 220, 0.205), -2px -2px 15px rgba(220, 220, 220, 0.205);
+    padding: 20px;
+    color: aliceblue;
+
+}
+.contact{
+    box-shadow: none;
+}
+.contact h2{
+    text-align: left;
+    text-decoration: none;
+    margin: 20px;
+
+}
+.contact hr{
+    width: 50%;
+    margin: 0;
+}
+input,textarea{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.634);
+    border: 2px solid rgba(0, 0, 0, 0.219);
+    border-radius: 14px;
+    height: 40px;
+    box-shadow: 2px 2px 15px rgba(14, 14, 14, 0.105), -2px -2px 15px rgba(14, 14, 14, 0.105);
+
+}
+
+label h4{
+    margin: 7px 0 7px 10px;
+}
+
+input[type='submit']{
+    margin: 7px 0 ;
+    background-color: rgba(0, 208, 255, 0.96);
+}
