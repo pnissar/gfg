@@ -1,0 +1,40 @@
+.par{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.item{
+    padding: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.i1{
+    grid-column:1/3;
+    background-color: red;
+}
+.i2{
+    background-color: antiquewhite;
+}
+.i3{
+    grid-row: 1/4;
+    grid-column: 4;
+    background-color: aquamarine;
+}
+.i4{
+    grid-area: 2/1/4/2;
+    background-color:gainsboro;
+
+}
+.i7{
+    grid-area: 3/2/4/4;
+    background-color: cadetblue;
+}
+.i6{
+    background-color: hotpink;
+}
+.i5{
+    background-color: khaki;
+}
