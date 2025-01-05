@@ -1,0 +1,29 @@
+.ani{
+    border: 2px solid black;
+    padding: 10px;
+}
+/* it is used of dicendents of it */
+.ani div{
+    background-color:hotpink;
+}
+/* it is for direct childern */
+.ani >div{
+    background-color: cornflowerblue;
+}
+
+.pa1,.pa2,.pa3{
+    border: 2px solid black;
+    padding: 10px;
+}
+.pa1 .ch1,.pa1 .ch2{
+    background-color: antiquewhite;
+}
+/* it is used of all siblings */
+.ch1 ~.ch2{
+    background-color: black;
+}
+/* it is used for direct adjacent sibling */
+.ch1 +.ch2{
+    background-color: rgb(60, 30, 231);
+    
+}
