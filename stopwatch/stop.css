@@ -76,3 +76,43 @@ body{
     background-color: #D3F1DF;
     border: none;
 }
+@media(max-width:900px){
+    .sec1 {
+            width: 70%;
+            height: 60%;
+            border-radius: 100%;
+            gap: 5px; 
+        }
+        .sec1>article {
+            width: 18%;
+            height: 20%;
+            background-color: #D3F1DF;
+            font-size: 2.5rem;       
+            }
+}
+@media(max-width:600px) {
+    .sec1 {
+        width: 80%;
+     
+    }
+
+    
+}
+@media(max-width:480px) {
+    .sec1 {
+        width: 90%;
+    }
+}
+@media(max-width:400px) {
+    .sec1 {
+        width: 90%;
+        height: 50%;
+        gap: 5px;
+    }
+
+    .sec1>article {
+        width: 15%;
+        height: 20%;
+        font-size: 2rem;
+    }
+}

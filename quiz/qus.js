@@ -63,8 +63,6 @@ function home() {
         div1.appendChild(h21);
         div1.appendChild(bt1);
         body.appendChild(div1);
-
-
     } 
     div.appendChild(h2);
     div.appendChild(bt);
@@ -104,13 +102,21 @@ function st() {
                     bu.classList.remove("btn-secondary");
                     bu.classList.add("btn-success");
                     sc++;
-                    h2.innerText = "Score :"+sc+"/10";
+                    h2.innerText = "Score :" + sc + "/10";
+                    let ty = cdr.children;
+                    for (let j of ty) {
+                        j.onclick = null;
+                    }
                 }
             }
             else {
                 bu.onclick = function () {
                     bu.classList.remove("btn-secondary");
                     bu.classList.add("btn-danger");
+                     let ty = cdr.children;
+                    for (let j of ty) {
+                        j.onclick = null;
+                    }
                 }
             }
             cdr.appendChild(bu);
