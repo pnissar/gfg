@@ -14,77 +14,16 @@
     <main>
         <section class="sec1">
             <article>
-                <input type="text" placeholder="InputBox">
-                <button class="add">ADD</button>
-                <button class="del">DEL ALL</button>
+                <input type="text" placeholder="InputBox" id="task">
+                <button class="add" onclick="add()">ADD</button>
+                <button class="del" onclick="delall()">DEL ALL</button>
             </article>
 
         </section>
         <section class="sec2">
             <article class="mar">
-                <ul>
-                    <article class="li">
-                         <li>
-                            <h3>Task1 </h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task2</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task3</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task4</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task5</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task6</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task7</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task8</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task9</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                    <article class="li">
-                        <li>
-                            <h3>Task10</h3>
-                        </li>
-                        <button class="d">DEL</button>
-                    </article>
-                   
-                   
+                <ul id="ull" style="list-style: circle;">
+                    
                     
                 </ul>
             </article>
@@ -93,6 +32,7 @@
 
     </main>
     </section>
+    <script src="Tobo.js"></script>
     
 </body>
 </html>

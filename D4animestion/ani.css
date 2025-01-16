@@ -1,0 +1,137 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.ch,.ch2,.ch3,.ch4{
+    
+    position: absolute;
+    width:100px;
+    height: 100px;
+    
+}
+.ch{
+    top:0;
+    right: calc(100% -100px);
+    background-color: red;
+    animation: di 2s linear  1s infinite;
+}
+
+.ch2{
+    top:0;
+    right:0;
+    background-color: yellow;
+    animation: di2 2s linear 1s infinite;
+    
+}
+.ch3{
+    top:calc(100% - 100px);
+    left:0;
+    background-color: green;
+    animation: di3 2s linear 1s  infinite;
+    
+}
+.ch4{
+    top:calc(100% - 100px);
+    right: 0;
+    background-color: blue;
+    animation: di4 2s linear 1s infinite;
+    
+}
+@keyframes di {
+    0% {
+        right: calc(100% - 100px);
+        top: 0;
+        background-color: red;
+        transform: rotate(0deg);
+        border-radius: 0;
+    }
+
+    50% {
+        right: calc(50% - 50px);
+        top: calc(50% - 50px);
+        background-color: orange;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+        100% {
+            right: calc(100% - 100px);
+            top: 0;
+            background-color: red;
+            transform: rotate(0deg);
+            border-radius: 0;
+        }
+}
+@keyframes di2 {
+    0% {
+        right: 0;
+        top: 0;
+        background-color: yellow;
+        transform: rotate(0deg);
+        border-radius: 0;
+    }
+
+    50% {
+        right: calc(50% - 50px);
+        top: calc(50% - 50px);
+        background-color: orange;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+        100% {
+            right: 0;
+            top: 0;
+            background-color: yellow;
+            transform: rotate(0deg);
+            border-radius: 0;
+        }
+}
+@keyframes di3 {
+    0% {
+        left: 0;
+        top: calc(100% - 100px);;
+        background-color: green;
+        transform: rotate(0deg);
+        border-radius: 0;
+    }
+
+    50% {
+        left: calc(50% - 50px);
+        top: calc(50% - 50px);
+        background-color: orange;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+        100% {
+            left: 0;
+            top: calc(100% - 100px);
+            ;
+            background-color: green;
+            transform: rotate(0deg);
+            border-radius: 0;
+        }
+}
+@keyframes di4 {
+    0% {
+        right: 0;
+        top: calc(100% - 100px);
+        background-color: blue;
+        transform: rotate(0deg);
+        border-radius: 0;
+    }
+
+    50% {
+        right: calc(50% - 50px);
+        top: calc(50% - 50px);
+        background-color: orange;
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+         100% {
+             right: 0;
+             top: calc(100% - 100px);
+             background-color: blue;
+             transform: rotate(0deg);
+             border-radius: 0;
+         }
+}
