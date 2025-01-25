@@ -1,0 +1,40 @@
+.d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.dd{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px black;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    width: 80%;
+    height: 60%;
+    align-items:center;
+    
+}
+.i{
+    width: 30%;
+    height: 80%;
+    border-radius: 10px;
+}
+.c{
+    word-break: break-all;
+}
+
+.d3{
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    scrollbar-width: none;
+}
+.d3>p{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5px;
+}
