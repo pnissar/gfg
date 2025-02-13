@@ -1,0 +1,16 @@
+import express from "express";
+import sv from "../auth/sv.js";
+import up from "../auth/update.js";
+import del from "../auth/delete.js";
+import getotp from "../auth/getotp.js";
+import { upload } from "../middleware/upload.middleware.js";
+import verotp from "../auth/verifyotp.js";
+import phto from "../auth/phto.js";
+const rout = express.Router();
+rout.delete("/del", del);
+rout.put("/up", up);
+rout.post("/sv", sv);
+rout.post("/otp", getotp);
+rout.post("/users", upload.single("photo"), phto);
+rout.get("/votp", verotp);
+export default rout;

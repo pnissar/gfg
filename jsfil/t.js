@@ -1,0 +1,14 @@
+var a = [];
+var b = [];
+console.log(a === b);
+var c = [];
+var d = c;
+console.log(c === d);
+a = 3;
+b = "4";
+console.log(a % b);
+a = "4";
+c = "5";
+console.log(typeof (a + c));
+console.log(typeof (a - c));
+console.log(2&&1);

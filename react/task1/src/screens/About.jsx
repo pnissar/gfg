@@ -5,10 +5,13 @@ import {data } from "../assets/assets.js"
 export default function About() {
  
   return (
-    <div >
-      <div className={`container`}>
+    <div>
+      <div className={`p-2`}>
+        <br />
         <Header />
-        <h5>{data.about}</h5>
+        <div className="container mt-5">
+          <h5>{data.about}</h5>
+        </div>
       </div>
     </div>
   );
